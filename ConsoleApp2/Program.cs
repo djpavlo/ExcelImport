@@ -11,11 +11,11 @@ namespace ConsoleApp2
             //int rCnt;
             //int cCnt;
 
-            var res = ExcelExtaract(@"d:\sample.xls");
+            var res = ExcelImport(@"d:\sample.xls");
 
         }
 
-        private static DataTable ExcelExtaract(string filePath)
+        private static DataTable ExcelImport(string filePath)
         {
             var xlApp = new Application();
 
